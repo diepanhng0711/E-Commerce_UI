@@ -1,0 +1,21 @@
+.product-description{
+    white-space: pre-line;
+}
+
+.custom-control-label {
+    cursor: pointer;
+    user-select: none;
+}
+
+.sizes-select {
+    font-size: 14px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    background-color: #D19C97;
+}
+
+.sizes-select-wrapper {
+    display: flex;
+    align-items: center;
+}

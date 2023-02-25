@@ -1,0 +1,29 @@
+
+G
+src/Redux/auth.slice.js,c\d\cd9ea0f36c0023773695f3da36bb6111ce81ec2d
+H
+src/Component/App/App.js,9\e\9eee719a77e2166c3806bda7e5aa5c9aaf646ac3
+T
+$src/Component/Auth/SignUp/SignUp.jsx,4\c\4ce80c59b339418f3269a278f7a79ff9b0550e5b
+O
+src/Component/Footer/Footer.jsx,0\b\0bbcc3d55fe3bc054ec8e5446b53b033bd888603
+O
+src/Component/Home/Featured.jsx,d\1\d142eb131fa11c8927697bac9e14703cf950f2de
+K
+src/Component/Home/Home.jsx,8\0\80e1765a28a5df7ecaef00994e99f3739fc0b96c
+Q
+!src/Component/Home/Categories.jsx,1\9\1916fafcf3b902b483dd95f979b4b8b389f3982e
+Z
+*src/Component/Home/JustArrivedProducts.jsx,0\b\0b6ce43b2078e433878372613f26924c681d2910
+R
+"src/Component/Dashboard/Navbar.jsx,9\0\90fa57982cb780388f05b03d54afab51d3144fb9
+<
+src/index.js,f\9\f900edc44cb929c2267a16100a32851f6d5b477d
+D
+src/CSS/_signup.scss,4\7\4741e43aac1f0b039bd467772a1bc34977218f30
+>
+src/index.scss,5\b\5bfd084cc3a318b78f32da1cd49fc9f987fb897f
+R
+"src/Component/Auth/Login/Login.jsx,8\7\87188bfd1eda060866817d42021bd15ea3514b70
+C
+src/CSS/_login.scss,f\d\fd66abf6765544990a5954fdd3d98ce2498c025a

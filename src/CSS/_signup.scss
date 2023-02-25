@@ -1,0 +1,157 @@
+.signup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    label,
+    h2 {
+        -webkit-user-select: none;
+        user-select: none;
+    }
+
+    .signup-form {
+        background-color: #ffffff;
+        width: 500px;
+        height: 600px;
+        padding: 15px;
+        box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+
+        .signup-header {
+            text-align: center;
+
+            h2 {
+                text-align: center;
+            }
+        }
+
+        .signup-body {
+            height: 200px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+            input {
+                padding: 10px 20px;
+                border-radius: 15px;
+                border: none;
+                outline: 1px dashed #000;
+                font-family: "Poppins", sans-serif;
+
+                &:hover,
+                &:focus {
+                    outline: 3px solid rgb(209, 156, 151);
+                    box-shadow: 0 0 5px 7px rgba(209, 156, 151, 0.5);
+                }
+            }
+
+            .input-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 80%;
+                margin-bottom: 10px;
+                position: relative;
+
+                .validate-icon {
+                    position: absolute;
+                    top: 37px;
+                    right: 10px;
+                    font-size: 20px;
+                    cursor: pointer;
+                    color: red;
+                }
+            }
+
+            .show-password {
+                width: 80%;
+                align-items: center;
+                display: flex;
+
+                input {
+                    border: none;
+                    outline: none;
+                    box-shadow: none;
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 10px;
+                }
+
+                label {
+                    padding-top: 10px;
+                }
+            }
+        }
+
+        .signup-footer {
+            padding: 0 40px;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+
+            #btn-signup {
+                border-radius: 25px;
+                margin-bottom: 15px;
+                padding: 15px 0;
+                border: none;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                transition: all 0.2s ease;
+                outline: none;
+                font-size: 18px;
+                font-weight: 600;
+                color: #2e2e2e;
+
+                &:hover {
+                    background-color: #D19C97;
+                    color: white;
+                }
+
+                &:active {
+                    background-color: #D19C97;
+                    box-shadow: none;
+                    transform: scale(0.98);
+                    color: white;
+                }
+            }
+        }
+
+        #close-icon {
+            position: absolute;
+            right: 15px;
+            top: 5px;
+            font-size: 35px;
+            cursor: pointer;
+
+            svg {
+                transition: all 0.1s ease-in;
+
+                &:hover {
+                    background-color: #D19C97;
+                    border-radius: 50%;
+                    padding: 5px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                }
+
+                &:active {
+                    background-color: #D19C97;
+                    box-shadow: none;
+                    transform: scale(0.95);
+                }
+            }
+
+        }
+    }
+}

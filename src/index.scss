@@ -1,0 +1,24 @@
+@import "CSS/_login.scss";
+@import "CSS/_signup.scss";
+@import "CSS/loading";
+@import "CSS/navbar";
+@import "CSS/card-container";
+@import "CSS/product_detail";
+
+:root {
+  --primary-color: rgb(209, 156, 151);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,44 @@
+.ads {
+    margin: 0px 300px;
+    text-decoration: none;
+}
+
+.ads-name {
+    margin: 10px 300px;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.ads img {
+    width: auto;
+    height:30rem; 
+    background-repeat: no-repeat !important;
+    background-position: center center  !important;
+    background-size: cover  !important;
+}
+
+.slick-prev {
+    display: none !important;
+    left: 220px !important;
+    z-index: 100 !important;
+    height: 48px !important;
+    width: 44px !important;
+    background: #D19C97 !important;
+    border-radius: 50% !important;
+
+}
+.slick-next {
+    display: none !important;
+    right: 250px !important;
+    z-index: 100 !important;
+    height: 48px !important;
+    width: 44px !important;
+    background: #D19C97 !important;
+    border-radius: 50% !important;
+
+}
+
+.slick-next i {
+    color: var(--white);
+    font-size: 40px;
+}
